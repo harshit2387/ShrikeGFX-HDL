@@ -1,0 +1,13 @@
+# Shrike-Lite / SLG47910 reference only.
+# Use Go Configure's I/O Planner and the schematic for your board revision to
+# choose the real package pads connected to Pmod pins. Replace PIN_N and then
+# uncomment each mapping you use. Set each output enable HIGH in the I/O Planner.
+set_io clk CLK
+set_io clk_en OSC_EN
+
+# TFT or OLED single-display output example:
+# set_io spi_sck      PIN_N
+# set_io spi_mosi     PIN_N
+# set_io display_dc   PIN_N
+# set_io display_cs_n PIN_N
+# set_io display_rst_n PIN_N
